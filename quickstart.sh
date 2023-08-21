@@ -1,3 +1,1 @@
-FROM alpine
-COPY quickstart.sh /
-CMD ["/quickstart.sh"]
+echo "Hello, world! The time is $(date)."
